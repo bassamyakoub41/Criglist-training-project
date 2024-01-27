@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1000px;
+    height: auto;
+    background-color: rgb(231, 230, 230);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+#main{
+    width: 98%;
+    height: 500px;
+    display: flex;
+}
+#nav{
+    width: 20%;
+    height: 90%;
+    background-color: rgb(206, 206, 206);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px 0px 0px 10px;
+}
+.f-text{
+    display: inline-block;
+    font-size: 20px;
+    text-align: start;
+}
+.nav-form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-bottom: 5px;
+    background-color: gray;
+    padding: 5px 0px 5px 5px;
+}
+#end-t{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right:40px;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+#mid-main{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-left: 30px;
+    
+}
+.columns{
+    display: flex;
+    flex-flow: column wrap;
+    align-content:center;
+    gap: 5px;
+    margin-left:20px ;
+    background-color: white;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.font{
+    background-color: rgb(184, 184, 184);
+}
+.b-font{
+    display: inline-block;
+    width: 100%;
+}
+.f-text span{
+    background-color: rgb(231, 230, 230);
+}
+.h-color{
+    background-color: rgb(184, 184, 184);
+    display: block;
+    padding: 0px 25px;
+}
+.nav-form h2{
+    background-color:rgb(220, 217, 217);
+}
+#end-t span{
+    background-color:rgb(247, 247, 247);
+    padding: 2px 5px;
+}
